@@ -702,7 +702,7 @@ banner
 /* ==== Main CSS === */
 .img-fill{
   width: 100%;
-  display: block;
+  display: flex;
   overflow: hidden;
   position: relative;
   text-align: center
@@ -824,7 +824,7 @@ ul.slick-dots {
   position: relative;
 }
 
-.Modern-Slider {background:#000;}
+.Modern-Slider {background: transparent;}
 
 
 /* ==== Slick Slider Css Ruls === */
@@ -876,6 +876,7 @@ about
 
 #about .right-content .thumb {
   position: relative;
+  overflow: scroll;
 }
 
 #about .right-content .thumb a {
@@ -942,6 +943,18 @@ menu
 }
 .card6 {
   background-image: url(../images/rsz_aros_de_cebolla2.jpeg);
+}
+.card7 {
+  background-image: url(../images/cubeta.jpg);
+}
+.card8 {
+  background-image: url(../images/caguama.jpg);
+}
+.card9 {
+  background-image: url(../images/rsz_cerveza.jpg);
+}
+.card10 {
+  background-image: url(../images/vasopit.jpg);
 }
 
 .info {
